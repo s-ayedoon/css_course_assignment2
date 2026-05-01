@@ -1,0 +1,87 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 135%;
+  background-color: #F6EBC1;
+}
+
+header {
+    background-color: #DFDFE1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_wrap {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav {
+    width: 80%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex: 1;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header img {
+    display: inline-block;
+    width: 10%;
+}
+
+main {
+    background-color: #DFDFE1;
+    font-size: 22px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0a4b78;
+}
+
+p {
+    line-height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+/* so images take full space */
+.images img {
+    width: 100%;
+}
+
+footer {
+    background-color: #D4E1F2;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* advanced selectors! */
+footer a[href="#top"] {
+    font-size: 20px;
+}
